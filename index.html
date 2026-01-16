@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PandaCommerce — SaaS eCommerce Starter</title>
+    <title>PandaCommerce — Launch Your eCommerce SaaS</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,125 +11,70 @@
       crossorigin="anonymous"
     >
   </head>
-
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">PandaCommerce</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <a class="navbar-brand fw-bold" href="index.html">PandaCommerce</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
           </ul>
-          <a href="#" class="btn btn-outline-light position-relative" aria-label="View cart">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 .49.598l-1.5 7A.5.5 0 0 1 13 13H4a.5.5 0 0 1-.491-.408L1.01 2H.5a.5.5 0 0 1-.5-.5zm3.14 4l1.25 6H13l1.25-6H3.14z"/>
-              <path d="M5 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm2 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-            </svg>
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="font-size:0.8rem;">
-              0
-              <span class="visually-hidden">cart items</span>
-            </span>
-          </a>
         </div>
       </div>
     </nav>
 
     <main>
-      <div class="container my-5">
-        <h1 class="mb-4 text-center fw-bold">Shop Products</h1>
-        <div class="row g-4">
-          <!-- Product 1 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+One" class="card-img-top" alt="Product One Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Elegant Backpack</h5>
-                <p class="card-text text-muted mb-2">A stylish, durable backpack perfect for daily use.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$49</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Elegant Backpack to cart">Add to Cart</button>
+      <section class="bg-light py-5 text-center">
+        <div class="container py-4">
+          <h1 class="display-4 fw-bold mb-3">PandaCommerce</h1>
+          <p class="lead mb-4">
+            The Bootstrap-based SaaS eCommerce starter, crafted for founders, agencies, and devs. Easily launch a scalable online store with catalog, cart, checkout, and user accounts—all in minutes.
+          </p>
+          <div class="mb-4">
+            <a href="shop.html" class="btn btn-primary btn-lg px-4 me-2">Start Shopping</a>
+            <a href="#features" class="btn btn-outline-secondary btn-lg px-4">Features</a>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="py-5">
+        <div class="container">
+          <h2 class="fw-bold mb-4 text-center">Everything You Need to Sell Online</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 text-center shadow-sm border-0">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#0d6efd" class="mb-3" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v1h1.293l.853.854V13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V3.707l.854-.853H15V2a1 1 0 0 0-1-1H2zm4 11H3V4h1v6.5a.5.5 0 0 0 1 0V4h1v8zm3 0h-2V4h2v8zM2 0a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h1.293l.854.854V13.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V3.707l.854-.854H17a1 1 0 0 0 1-1V2a2 2 0 0 0-2-2H2z"/></svg>
+                  <h5 class="card-title fw-bold">Catalog &amp; Product Grid</h5>
+                  <p class="card-text">Showcase your products beautifully with a responsive catalog layout built on Bootstrap.</p>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Product 2 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+Two" class="card-img-top" alt="Product Two Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Smart Watch</h5>
-                <p class="card-text text-muted mb-2">Track your fitness and stay connected with this smart watch.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$89</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Smart Watch to cart">Add to Cart</button>
+            <div class="col-md-4">
+              <div class="card h-100 text-center shadow-sm border-0">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#0d6efd" class="mb-3" viewBox="0 0 16 16"><path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 .49.598l-1.5 7A.5.5 0 0 1 13 13H4a.5.5 0 0 1-.491-.408L1.01 2H.5a.5.5 0 0 1-.5-.5zm3.14 4l1.25 6H13l1.25-6H3.14z"/><path d="M5 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm2 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>
+                  <h5 class="card-title fw-bold">Cart &amp; Checkout</h5>
+                  <p class="card-text">Seamless cart and checkout flows for your users. Intuitive. No fluff.</p>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Product 3 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+Three" class="card-img-top" alt="Product Three Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Wireless Earbuds</h5>
-                <p class="card-text text-muted mb-2">Crisp sound and all-day comfort. Wireless freedom on the go.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$59</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Wireless Earbuds to cart">Add to Cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Product 4 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+Four" class="card-img-top" alt="Product Four Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Minimal Desk Lamp</h5>
-                <p class="card-text text-muted mb-2">Sleek, energy-efficient lighting for your workspace.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$35</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Minimal Desk Lamp to cart">Add to Cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Product 5 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+Five" class="card-img-top" alt="Product Five Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Reusable Water Bottle</h5>
-                <p class="card-text text-muted mb-2">Eco-friendly and BPA-free. Hydrate anywhere.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$19</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Reusable Water Bottle to cart">Add to Cart</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Product 6 -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm">
-              <img src="https://via.placeholder.com/400x300?text=Product+Six" class="card-img-top" alt="Product Six Image" width="400" height="300">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Premium Notebook</h5>
-                <p class="card-text text-muted mb-2">Acid-free pages in a durable hardcover—perfect for notes or sketches.</p>
-                <div class="d-flex justify-content-between align-items-center mt-auto">
-                  <span class="fw-bold fs-5">$15</span>
-                  <button class="btn btn-primary" type="button" aria-label="Add Premium Notebook to cart">Add to Cart</button>
+            <div class="col-md-4">
+              <div class="card h-100 text-center shadow-sm border-0">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#0d6efd" class="mb-3" viewBox="0 0 16 16"><path d="M8 15s6-5.686 6-10A6 6 0 0 0 2 5c0 4.314 6 10 6 10zm0-1.314C6.163 12.069 2 8.277 2 5a6 6 0 1 1 12 0c0 3.277-4.163 7.069-6 8.686z"/></svg>
+                  <h5 class="card-title fw-bold">Built for Modern SaaS</h5>
+                  <p class="card-text">Designed for developers, SaaS founders, and agencies who want a solid starting point.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
 <!--
@@ -148,7 +93,6 @@
     ⚠ Do NOT remove or modify this script unless explicitly instructed by the admin.
 -->
 <script src="https://bfwqdadlcyndtaqmqtci.supabase.co/storage/v1/object/public/pandajs/panda-branding.js" defer></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
